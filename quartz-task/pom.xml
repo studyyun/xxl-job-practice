@@ -117,15 +117,15 @@
           <propertyFileWillOverride>true</propertyFileWillOverride>
         </configuration>
       </plugin>
-      <plugin>
+      <!--<plugin>
         <groupId>com.msdn.hresh</groupId>
         <artifactId>liquibase-changelog-generate</artifactId>
         <version>1.0-SNAPSHOT</version>
         <configuration>
           <sourceFolderPath>src/main/resources/liquibase/changelogs/
-          </sourceFolderPath><!-- 当前应用根目录 -->
+          </sourceFolderPath>&lt;!&ndash; 当前应用根目录 &ndash;&gt;
         </configuration>
-      </plugin>
+      </plugin>-->
     </plugins>
   </build>
 </project>
